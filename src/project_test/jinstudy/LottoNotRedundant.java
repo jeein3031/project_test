@@ -1,6 +1,7 @@
 package project_test.jinstudy;
 import java.util.Random;
 
+//로또6번호 중복 안되게(이거는 이해를 못함..그냥 일단 해봄)
 public class LottoNotRedundant {
 	public static void lottGenerator() {
 		int[] lotto = new int[6];
