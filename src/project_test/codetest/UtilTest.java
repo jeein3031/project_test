@@ -8,18 +8,21 @@ import java.util.ArrayList;
 
 	public class UtilTest {
 		public static void codetest () {
-			List<String> fruits = new ArrayList<>();
 			
-			fruits.add("사과");
-			fruits.add("바나나");
-			fruits.add("포도");
-			
-			for (String fruit : fruits) {
-				System.out.println(fruit);				
-			}			
+		
 		}
 	}	
 			
+	
+//	List<String> fruits = new ArrayList<>();
+//	
+//	fruits.add("사과");
+//	fruits.add("바나나");
+//	fruits.add("포도");
+//	
+//	for (String fruit : fruits) {
+//		System.out.println(fruit);				
+//	}	
 //			###배열에서 "length" 사용하여 읽기 #########################################			
 //    		String[] drinks = {"아메리카노", "바닐라라떼", "제로콜라","애플쥬스", "비타민쥬스"};
 //    		Random ran = new Random();

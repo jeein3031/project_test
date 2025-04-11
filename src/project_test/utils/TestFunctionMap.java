@@ -1,6 +1,8 @@
 package project_test.utils;
 import java.util.HashMap;
 
+
+
 import java.util.Map;
 import project_test.codetest.UtilTest;
 import project_test.jinstudy.Calculat;
@@ -11,6 +13,9 @@ import project_test.jinstudy.LottoNumber;
 import project_test.jinstudy.Lunch;
 import project_test.jinstudy.ScannerTest;
 import project_test.jinstudy.StarPattern;
+import porject_test.jinstydy.DataJson;
+
+
 
 
 
@@ -29,7 +34,7 @@ public class TestFunctionMap {
 		 functionMap.put("todayMenu", () -> { Lunch.LunchMenu(); });
 		 functionMap.put("test_switch", () -> { ChoiceCase.casecolor(); });
 		 functionMap.put("test_util", () -> { UtilTest.codetest(); });
-		 
+		 functionMap.put("test_Json", () -> {DataJson.printJson(); });
 		 
 	 }		  
 }
