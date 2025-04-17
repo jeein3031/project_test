@@ -1,12 +1,6 @@
 package project_test.codetest;
 
-import java.util.Random;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ArrayList;
-
-
-	public class UtilTest {
+public class UtilTest {
 		public static void codetest () {
 			
 		
