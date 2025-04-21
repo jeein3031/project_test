@@ -13,6 +13,8 @@ import project_test.jinstudy.Lunch;
 import project_test.jinstudy.ScannerTest;
 import project_test.jinstudy.StarPattern;
 import project_test.jinstudy.JsonSample;
+import project_test.jinstudy.JsonSampleMap;
+
 
 
 
@@ -34,7 +36,7 @@ public class TestFunctionMap {
 		 functionMap.put("test_Json", () -> { DataJson.printJson(); });
 		 functionMap.put("test_Json2", () -> { DataJson.printJsons(); });
 		 functionMap.put("test_callcenter", () -> { JsonSample.CallCenter(); });	
-		 
+		 functionMap.put("test_callMap", () -> { JsonSampleMap.callMap(); });
 		 
 	 }		  
 }

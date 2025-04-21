@@ -1,12 +1,38 @@
 package project_test.codetest;
 
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.HashMap;
+
+
+
 public class UtilTest {
 		public static void codetest () {
+			Map<String, Integer> fruitMap = new HashMap<>();
 			
-		
-		}
-	}	
+			fruitMap.put("Orange" , 5);
+			fruitMap.put("Apple" , 10);
+			fruitMap.put("Banana" , 3);
+			fruitMap.put("Kiwi" , 20);
 			
+			System.out.println("Fruite Map:" + fruitMap);
+			
+			int appleCount = fruitMap.get("Apple");
+			int bananaCount = fruitMap.get("Banana");
+			
+			System.out.println("사과 갯수: " + appleCount);
+			System.out.println("바나나 갯수: " + bananaCount);
+			
+			Boolean isApple = fruitMap.containsKey("Apple");
+			Boolean isMango = fruitMap.containsKey("Mango");
+			System.out.println("Apple 있나:" + isApple);
+			System.out.println("Mango 있나: "+ isMango);
+
+		}	
+}	
+
 	
 //	List<String> fruits = new ArrayList<>();
 //	

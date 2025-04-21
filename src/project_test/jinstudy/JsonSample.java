@@ -4,6 +4,11 @@ import javax.print.attribute.SetOfIntegerSyntax;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import java.util.HashMap;
+import java.util.*;
+
+
+
 
 
 
@@ -83,7 +88,8 @@ public class JsonSample {
 		problemTypes.put("배송");
 		problemTypes.put("환불");
 		problemTypes.put("기타");
-		callStatistics.put("problemTypes", problemTypes);		
+		callStatistics.put("problemTypes", problemTypes);	
+		
 		//callcenter
 		JSONObject callCenter = new JSONObject();
 		callCenter.put("name","브리지텍 콜센터");

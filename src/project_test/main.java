@@ -12,9 +12,11 @@ public class main {
 		String test_function = inputScanner.nextLine();
 		Runnable runnable = TestFunctionMap.functionMap.getOrDefault
 			(test_function, 
-			() -> System.out.println("[TEST] 해당하는 ㅔㅌ스트 함수가 없습니다.")
+			() -> System.out.println("[TEST] 해당하는 테스트 함수가 없습니다.")
 		);
 		runnable.run();
+
+
 				
 //		((Runnable)TestFunctionMap.functionMap.getOrDefault(test_function, () -> {
 //				System.out.println("[TEST] 해당하는 테스트 함수가 없습니다.");
